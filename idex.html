@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Proyectos y Marcos de Calidad</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f1f8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #003366, #00509e);
+            color: #ffffff;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        header h2 {
+            margin: 0;
+            font-weight: 300;
+            color: #99c2ff;
+            font-size: 1.5rem;
+        }
+
+        .integrantes {
+            margin-top: 30px;
+            font-size: 0.95rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: -40px auto 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: #ffffff;
+            padding: 35px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        h3 {
+            color: #00509e;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.6rem;
+        }
+
+        h4 {
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        
+        .card {
+            background: #f9fbff;
+            padding: 20px;
+            border-left: 4px solid #00509e;
+            border-radius: 4px;
+        }
+
+        ul { margin: 0; padding-left: 20px; }
+        li { margin-bottom: 8px; }
+
+        .highlight-box {
+            background: #e6f2ff;
+            padding: 20px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: bold;
+            color: #004b87;
+            margin-top: 25px;
+        }
+
+        .alert-box {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .metric-tags span {
+            display: inline-block;
+            background: #00509e;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GESTIÓN DE PROYECTOS Y MARCOS DE CALIDAD</h1>
+        <h2>Optimizando el desarrollo y los procesos</h2>
+        <div class="integrantes">
+            <strong>INTEGRANTES:</strong> BECERRA HERNANDEZ HUGO, BRISEÑO FLORES GABRIEL ALEJANDRO, CABRERA ALVARADO FERNANDO, LOPEZ RIVERA JOSE MANUEL, LUIS DE LA CRUZ MICHELLE, VELAZCO ZABALA GERARDO JESUS
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section>
+            <h3>INTRODUCCIÓN A LA INTEGRACIÓN DE LA CALIDAD</h3>
+            <p>Integrar calidad significa incorporarla en cada decisión y entrega del proyecto. La calidad del proceso asegura la calidad del producto.</p>
+            
+            <div class="alert-box">
+                Sin un marco de calidad, aumentan los retrasos y los fallos, lo que da como resultados: sobrecostos, retrabajo y pérdida de confianza.
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h4>PROCESO</h4>
+                    <p>Prácticas sólidas y mejora continua.</p>
+                </div>
+                <div class="card">
+                    <h4>PRODUCTO</h4>
+                    <p>Entregas confiables y valor para el usuario.</p>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                CALIDAD: Estándares, control y verificación
+            </div>
+        </section>
+
+        <section>
+            <h3>ESTÁNDARES PRINCIPALES EN GESTIÓN DE CALIDAD</h3>
+            <div class="grid-3">
+                <div class="card">
+                    <h4>ISO 9001</h4>
+                    <p>Gestión de calidad general y enfoque en procesos.</p>
+                </div>
+                <div class="card">
+                    <h4>ISO/IEC 25010</h4>
+                    <p>Calidad del software y características del producto.</p>
+                </div>
+                <div class="card">
+                    <h4>CMMI</h4>
+                    <p>Madurez y mejora continua de procesos en desarrollo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>PLANIFICACIÓN DE LA CALIDAD EN PROYECTOS</h3>
+            <ul>
+                <li>Define métricas claras y medibles para decisiones con evidencia.</li>
+                <li>El SQAP alinea objetivos, procesos y responsabilidades de calidad.</li>
+                <li>El diagrama de Gantt organiza actividades y facilita el seguimiento del plan.</li>
+                <li>Integra planificación y control para entregar valor confiable.</li>
+            </ul>
+            
+            <h4>Métricas Clave</h4>
+            <div class="metric-tags">
+                <span>Cobertura de pruebas</span>
+                <span>Densidad de defectos</span>
+                <span>Cumplimiento del plan</span>
+                <span>Retrabajo</span>
+                <span>Satisfacción del usuario</span>
+            </div>
+        </section>
+
+        <section>
+            <div class="grid-2">
+                <div>
+                    <h3>ASEGURAMIENTO DE LA CALIDAD (QA)</h3>
+                    <ul>
+                        <li>Enfoque preventivo durante todo el desarrollo.</li>
+                        <li>Auditorías, revisiones y controles periódicos.</li>
+                        <li>Mejora continua basada en resultados y retroalimentación.</li>
+                    </ul>
+                    <p><strong>Ciclo:</strong> Planificar ➔ Ejecutar ➔ Verificar ➔ Mejorar (Mejora Continua).</p>
+                </div>
+                
+                <div>
+                    <h3>CONTROL DE LA CALIDAD (QC)</h3>
+                    <ul>
+                        <li>Enfoque reactivo y ejecución de pruebas y gestión de incidencias.</li>
+                        <li>Detección y corrección.</li>
+                        <li>La calidad en QC se basa en identificar y corregir defectos para asegurar el funcionamiento adecuado del producto.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
+
+            <h4>Estructura del Control de Calidad (QC)</h4>
+            <div class="grid-2">
+                <div class="card">
+                    <h4>Tipos de Pruebas</h4>
+                    <ul>
+                        <li>Pruebas Unitarias</li>
+                        <li>Pruebas de Integración</li>
+                        <li>Pruebas de Sistema</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Gestión de Incidencias</h4>
+                    <ul>
+                        <li>Registro de incidencias</li>
+                        <li>Seguimiento y priorización</li>
+                        <li>Resolución y verificación</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p style="margin-top: 20px; font-weight: bold;">Ciclo de QC:</p>
+            <ul>
+                <li><strong>Planificar:</strong> Definir alcance y estrategia de pruebas.</li>
+                <li><strong>Ejecutar:</strong> Ejecutar pruebas y detectar defectos.</li>
+                <li><strong>Gestionar:</strong> Registrar, dar seguimiento y resolver incidencias.</li>
+                <li><strong>Verificar:</strong> Validar correcciones y cerrar incidencias.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>IMPLEMENTACIÓN, RETOS Y BENEFICIOS</h3>
+            <div class="grid-2">
+                <div class="card" style="border-left-color: #f44336;">
+                    <h4 style="color: #d32f2f;">Retos</h4>
+                    <ul>
+                        <li>Resistencia al cambio</li>
+                        <li>Costos iniciales</li>
+                        <li>Capacitación y desarrollo de competencias</li>
+                    </ul>
+                </div>
+                <div class="card" style="border-left-color: #4caf50;">
+                    <h4 style="color: #388e3c;">Beneficios</h4>
+                    <ul>
+                        <li>Reducción de costos</li>
+                        <li>Mejora en satisfacción de usuarios</li>
+                        <li>Mayor eficiencia y productividad</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="font-size: 1.2rem;">
+                LA CALIDAD ES EL PILAR ESENCIAL QUE TRANSFORMA PROYECTOS TECNOLÓGICOS EN SOLUCIONES CONFIABLES, SOSTENIBLES Y CON IMPACTO.
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
